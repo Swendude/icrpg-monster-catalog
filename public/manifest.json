@@ -1,0 +1,9 @@
+{
+  "short_name": "icrpg-monster-catalog",
+  "name": "ICRPG Public Monster Catalog",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
