@@ -1,13 +1,16 @@
-import React from 'react';
-import { Monsterblock } from './features/monsterblock/Monsterblock'
+import React from "react";
+import styled from "styled-components";
+import EditableText from "./components/EditableText";
 
-import './App.css';
+const AppBody = styled.div`
+  font-family: "Courier New", Courier, monospace;
+`;
 
 function App() {
   return (
-    <div className="App">
-        <Monsterblock></Monsterblock>        
-    </div>
+    <AppBody>
+      <EditableText placeholder="Monster name" />
+    </AppBody>
   );
 }
 
